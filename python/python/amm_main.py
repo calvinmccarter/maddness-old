@@ -430,9 +430,12 @@ def main_cifar100(methods=methods.USE_METHODS, saveas='cifar100'):
 
 
 def main_all(methods=methods.USE_METHODS):
+    print(methods)
+    #exit(0)
     main_cifar10(methods=methods)
     main_cifar100(methods=methods)
     main_caltech(methods=methods)
+    main_ucr(methods=methods)
 
 
 def main():
